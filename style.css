@@ -1,11 +1,16 @@
 
+.body{
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
 *{
     
     margin: 0;
     padding: 0;
 }
-.body {
-    font-family: 'Righteous', cursive;
+.body{
+    font-family: 'El Messiri', sans-serif;
 }
 
 .cabeçalho{
@@ -24,12 +29,28 @@
 .Escola-imagem {
     width: 25%;
 }
-
+ .Escola{
+    background-image: linear-gradient(#000000, #2D9B45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+ }
  .Escola-div-conteudo{
     width: 35%;
  }
  .Escola-titulo{
     padding: 24px 0;
  }
+ .Estudante-imagem{
+    width: 120px;
+ }
+ .Estudante-icone{
+    width: 24px;
+ }
 
+ .Estudantes-div{
+    text-align: center;
+ }
  
