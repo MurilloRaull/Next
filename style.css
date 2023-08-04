@@ -1,56 +1,109 @@
 
-.body{
-    font-family: 'El Messiri', sans-serif;
-    font-family: 'Press Start 2P', cursive;
-}
+
 
 *{
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .body{
-    font-family: 'El Messiri', sans-serif;
+    height: 900vh;
 }
 
-.cabeçalho{
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 0;
+nav.menu-lateral{
+   width: 80px;
+   height: 100%;
+    background-color: black;
+    padding: 40px 0 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
     
 }
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-}
- 
-.Escola-imagem {
-    width: 25%;
-}
- .Escola{
-    background-image: linear-gradient(#000000, #2D9B45);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
- }
- .Escola-div-conteudo{
-    width: 35%;
- }
- .Escola-titulo{
-    padding: 24px 0;
- }
- .Estudante-imagem{
-    width: 120px;
- }
- .Estudante-icone{
-    width: 24px;
- }
 
- .Estudantes-div{
-    text-align: center;
- }
- 
+nav.menu-lateral:hover{
+    width: 300px;
+
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.Item-lista{
+   transition: .2s;
+}
+
+ul li.Item-lista:hover{
+    background: #010b6f;
+}
+
+ul li.Item-lista a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.Item-lista a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.Item-lista a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Logo-imagem{
+    position: absolute;
+    top: 13%;
+    left: 21%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+}
+  
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
