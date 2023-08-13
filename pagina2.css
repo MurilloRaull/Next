@@ -77,3 +77,12 @@ ul li.Item-lista a .icon > i{
     height: 25%;
     transform: translate(-50%, -50%);
 }
+.Projetos-next{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 10%;
+    transform: translate( -115%, -91%)
+    
+}
+
