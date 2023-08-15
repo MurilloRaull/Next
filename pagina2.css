@@ -82,28 +82,45 @@ ul li.Item-lista a .icon > i{
     top: 50%;
     left: 50%;
     right: 10%;
-    transform: translate( -130%, -96%)
+    transform: translate( -113%, -91%)
     
 }
 
 .Imagem-super-maquina{
-   width: 200px;
+   width: 240px;
    position: absolute;
-   top: 49%;
-   left: 12%;
+   top: 45%;
+   left: 10%;
    border-radius: 10px;
 }
 .Projeto-1{
     color: white;
     position: absolute;
-    top: 40%;
-    left: 9%;
+    top: 34%;
+    left: 8%;
 }
 .Txt-p1{
     color: white;
     position: absolute;
-    top: 72%;
-    left: 7%;
+    top: 74%;
+    left: 8%;
     right: 70%;
     text-align: center;
+    font-size: large;
+}
+.Projetos-next2{
+    width: 230px;
+    height: 180px;
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    border-radius: 10px;
+}
+
+.Projeto-2{
+color: white;
+position: absolute;
+top: 35%;
+left: 48%;
+font-size: xx-large;
 }
