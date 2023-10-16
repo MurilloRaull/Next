@@ -1,0 +1,159 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 900vh;
+}
+
+nav.menu-lateral{
+   width: 80px;
+   height: 100%;
+    background-color: black;
+    padding: 40px 0 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+    
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.Item-lista{
+   transition: .2s;
+}
+
+ul li.Item-lista:hover{
+    background: #010b6f;
+}
+
+ul li.Item-lista a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.Item-lista a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.Item-lista a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Logo-imagem{
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+}
+.Projetos-next{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 10%;
+    transform: translate( -133%, -100%)
+    
+}
+
+.Imagem-super-maquina{
+   width: 300px;
+   position: absolute;
+   top: 41%;
+   left: 10%;
+   border-radius: 10px;
+}
+.Projeto-1{
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+}
+.Txt-p1{
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    right: 70%;
+    text-align: center;
+    font-size: large;
+}
+.Projetos-next2{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 41%;
+    left: 42%;
+    border-radius: 10px;
+}
+
+.Projeto-2{
+color: white;
+position: absolute;
+top: 32%;
+left: 46%;
+font-size: xx-large;
+}
+.txt-p2{
+    color: white;
+    position: absolute;
+    top: 77%;
+    text-align: center;
+    font-size: large;
+    left: 39%;
+    right: 35%;
+}
+.Projeto-next3{
+    width: 300px;
+    height: 235px;
+    border-radius: 10px;
+    position: absolute;
+    top: 41%;
+    left: 75%;
+}
+.Projeto-3{
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 32%;
+    left: 80%;
+}
+.txt-p3{
+    color: white;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    right: 5%;
+}
