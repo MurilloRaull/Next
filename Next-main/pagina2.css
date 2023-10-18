@@ -70,13 +70,13 @@ ul li.Item-lista a .icon > i{
     margin-left: 10px;
 }
 
-header{
+.Logo-imagem{
     position: absolute;
-    left: 10%;
-  
-
+    top: 25%;
+    left: 23%;
+    height: 30%;
+    transform: translate(-50%, -50%);
 }
-
 .Projetos-next{
     position: absolute;
     top: 50%;
