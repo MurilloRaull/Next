@@ -1,0 +1,134 @@
+body{
+    background-image: url(pexels-alena-darmel-7750856.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    color: white;
+    height: 150px;
+    right: 0%;
+    font-size: 10;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 120%;
+    
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center; 
+     animation: shake 5s infinite;
+     height: 300px;
+     
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+  }
+
+    
+
+.itens{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 16px;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.endereço{
+    font-size: 13px;
+    
+}
+.endereço:hover{
+   font-size: 20px;
+   text-decoration: underline;
+  
+}
+.telefone{
+    font-size: 11px;
+    
+    
+}
+.telefone:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+.colegio:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.logo-footer{
+    width: 150px;
+    height: 150px;
+    animation: shake 5s infinite;
+    
+}
+.estundante-icone{
+    width: 24px;
+}
+.estudante-imagem{
+    width: 150px;
+   border-radius: 10px;
+}
+.estudantes{
+    color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 30% ;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px;
+    
+    
+    
+}
+.estudante-div{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.estundante-Luis{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+} 
+.estundante-talita{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+.estundante-victor{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+.estudante-mariana{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
